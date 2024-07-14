@@ -28,7 +28,7 @@ const page = () => {
  <nav className="hidden md:flex justify-end flex-1">
    
 <div className="flex items-center text-lg space-x-4 lg:space-x-8">
- <a href="#" className="hover:text-vln-melon text-white transition duration-500">Main</a>
+ <a href="/" className="hover:text-vln-melon text-white transition duration-500">Main</a>
  <a href="/works" className="hover:text-vln-melon text-white transition duration-500">Works</a>
  <a href="/vision" className="hover:text-vln-melon text-white transition duration-500">Vision</a>
  <a href="/contact" className="hover:text-vln-melon text-white transition duration-500">Contact</a>

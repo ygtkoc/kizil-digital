@@ -15,7 +15,7 @@ export default function Home() {
            
               <div className="container flex items-center justify-between space-x-8 lg:space-x-16">
             
-            <a href="#" className="pl-4 md:pl-0 text-4xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-vln-melon to-vln-grey">B-Digital</a>
+            <a href="#" className="pl-4 md:pl-0 text-4xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-vln-red to-vln-grey">Kızıl Digital</a>
       
             
             <div className="block md:hidden pr-4">

@@ -10,6 +10,19 @@ export default function Home() {
   return (
           <>
             <Header></Header>
+            <section className="h-128 group relative overflow-hidden">
+                <div className="relative flex p-0 m-0 h-full w-full">
+                      <div className="flex-1 h-full basis-1/2">
+                          <div className="absolute w-1/2 h-128 bg-[url('./images/mainslider1.jpg')] bg-cover bg-center transition-transform duration-1000 ease-in-out transform hover:scale-150 origin-left"/>
+                      </div>
+                      <div className=" flex-1 h-full basis-1/2">
+                          <div className="absolute w-1/2 h-128 bg-[url('./images/mainslider2.jpg')] bg-cover bg-center transition-transform duration-1000 ease-in-out transform hover:scale-150 origin-right"/>
+                      </div>
+                </div>
+            </section>
+
+            
+            
           
           
           
@@ -30,8 +43,6 @@ export default function Home() {
           
           
           
-          
-          <Footer></Footer>
           </>
   );
 }

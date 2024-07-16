@@ -27,9 +27,9 @@ const Header = () => {
   
 <div className="flex items-center text-lg space-x-4 lg:space-x-8">
 <a href="/" className="hover:text-vln-melon text-white transition duration-500">Ana Sayfa</a>
-<a href="/servisler" className="hover:text-vln-melon text-white transition duration-500">Servisler</a>
-<a href="/vizyon" className="hover:text-vln-melon text-white transition duration-500">Vizyon</a>
-<a href="/iletisim" className="hover:text-vln-melon text-white transition duration-500">İletişim</a>
+<a href="/servisler" className="hover:text-vln-melon text-white transition duration-500">Servİsler</a>
+<a href="/vizyon" className="hover:text-vln-melon text-white transition duration-500">Vİzyon</a>
+<a href="/iletisim" className="hover:text-vln-melon text-white transition duration-500">İletİşİm</a>
 </div>
 </nav>
 </div>

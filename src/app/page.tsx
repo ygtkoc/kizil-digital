@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import { Bebas_Neue } from '@next/font/google';
 import { Gemunu_Libre } from '@next/font/google';
+import { Inter } from "@next/font/google";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
@@ -34,7 +35,7 @@ export default function Home() {
                       </div>
 
                       <div className="group flex-1 basis-1/2 relative overflow-hidden cursor-pointer">
-                          <div className="absolute w-full h-128 bg-[url('./images/mainslider2.jpg')] bg-cover bg-center group-hover:scale-110 group-hover:opacity-25 duration-500"/>
+                          <div className="absolute w-full h-128 bg-[url('./images/mainslider3.jpg')] bg-cover bg-center group-hover:scale-110 group-hover:opacity-25 duration-500"/>
 
                           <div className="container flex-col absolute text-center items-center bottom-0 duration-500 bg-gradient-to-b from-transparent to-black">
                             <h3 className="md:text-xl text-md text-indigo-500 tracking-widest opacity-100 transition-transform duration:500 drop-shadow">
@@ -54,9 +55,14 @@ export default function Home() {
 
             </section>
 
-            <section className="h-128 relative">
-                <div className="bg-black h-full">
-
+            <section className="h-96 relative border">
+                <div className="bg-black h-full flex items-center justify-center">
+                        <div className="h-3/4 w-11/12 flex">
+                            <div className="border h-full w-1/4 text-center pt-5"><h1 className="text-vln-white">Campaign 1</h1></div>
+                            <div className="border h-full w-1/4 text-center pt-5"><h1 className="text-vln-white">Campaign 2</h1></div>
+                            <div className="border h-full w-1/4 text-center pt-5"><h1 className="text-vln-white">Campaign 3</h1></div>
+                            <div className="border h-full w-1/4 text-center pt-5"><h1 className="text-vln-white">Campaign 4</h1></div>
+                        </div>
                 </div>
             </section>
             

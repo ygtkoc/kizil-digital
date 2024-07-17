@@ -26,7 +26,8 @@ const config: Config = {
         gemunu: ['Gemunu Libre', 'sans-serif'],
         open: ['Open Sans', 'sans-serif'],
         bebas: ['Bebas Neue', 'sans-serif'],
-        monsterrat: ['Montserrat', 'sans-serif']
+        monsterrat: ['Montserrat', 'sans-serif'],
+        inter: ['"Inter"', 'sans-serif']
       },
       colors: {
         'vln-red': '#BC1A45',
@@ -36,6 +37,7 @@ const config: Config = {
       },
       spacing: {
         '128': '32rem',
+        '1/8': '%12.5',
       },
     },
   },

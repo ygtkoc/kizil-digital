@@ -16,7 +16,7 @@ body,
 
 @layer base {
   h1, h2, h3, h4, h5, h6{
-    @apply font-gemunu uppercase;
+    @apply font-inter font-bold uppercase;
 }
 
 h2 {
@@ -24,6 +24,11 @@ h2 {
 }
 
 a {
-    @apply font-gemunu;
+    @apply font-inter font-bold;
 }
+
+p {
+    @apply font-gemunu font-medium;
+}
+
 }

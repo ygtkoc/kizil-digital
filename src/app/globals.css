@@ -32,3 +32,18 @@ p {
 }
 
 }
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgba(76, 0, 130, 0.87);
+  border-left: 0px solid #cecece;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+  transition: 0.5s alternate all ease-in-out;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: grey;
+  
+}

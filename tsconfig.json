@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/CampaignSection.jsx", "src/app/components/CampaignSection.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/CampaignSection.tsx", "src/app/components/CampaignSection.tsx"],
   "exclude": ["node_modules"]
 }

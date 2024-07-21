@@ -12,7 +12,7 @@ const Header = () => {
           
     <div className="container flex items-center justify-between space-x-8 lg:space-x-16">
   
-    <RevealWrapper rotate={{x:12,y:40,z:0}} origin='top' delay={110} duration={1000} distance='100px' reset={true} viewOffset={{top:  25,  right:0,  bottom:  10,  left:5}}><a href="#" className="pl-4 md:pl-0 text-4xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-sky-500 to-indigo-500">Kızıl Digital</a></RevealWrapper>
+    <RevealWrapper rotate={{x:12,y:40,z:0}} origin='top' delay={110} duration={1000} distance='100px' reset={true} viewOffset={{top:  25,  right:0,  bottom:  10,  left:5}}><a href="/" className="pl-4 md:pl-0 text-4xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-sky-500 to-indigo-500">Kızıl Digital</a></RevealWrapper>
 
     <RevealWrapper rotate={{x:12,y:40,z:0}} origin='right' delay={150} duration={1000} distance='100px' reset={true} viewOffset={{top:  25,  right:0,  bottom:  10,  left:5}}>
     <div className="block md:hidden pr-4">

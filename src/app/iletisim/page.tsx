@@ -11,6 +11,7 @@ const page = () => {
     <>
    <Header></Header>
           
+   
           
           
           
@@ -30,8 +31,7 @@ const page = () => {
           
           
           
-          
-          <Footer></Footer>
+  <Footer></Footer>
  
    
  

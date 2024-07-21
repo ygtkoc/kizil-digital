@@ -17,6 +17,7 @@ const page = () => {
           <CampaignSection/>
           <CampaignSection/>   
     
+          <Footer></Footer>      
  </>
   )
 }

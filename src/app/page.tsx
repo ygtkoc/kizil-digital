@@ -7,8 +7,9 @@ import { Gemunu_Libre } from '@next/font/google';
 import { Inter } from "@next/font/google";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Campaign from "./components/CampaignSection";
+import Campaign from "./components/Campaign";
 import { RevealWrapper } from  'next-reveal';
+import Promotion from './components/Promotion';
 
 
 
@@ -77,13 +78,11 @@ export default function Home() {
           
             <Campaign />
            
-            
+        
           
-          <section className="h-128 relative bg-vln-grey">
-                <div className=""></div>
-          </section>
+        <Promotion />
           
-       
+        <Footer />
        
           
           
